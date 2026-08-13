@@ -132,7 +132,33 @@
     </div>
   </section>
 
-  <section class="section section-dark" id="collab">
+  
+<section class="section location-section" id="location">
+  <div class="container">
+    <div class="location-grid">
+      <div class="location-copy reveal">
+        <span class="eyebrow">LOCATION · POHANG</span>
+        <h2 class="section-title">대한민국 동해안,<br><span class="accent">포항에서 만납니다.</span></h2>
+        <p class="section-description">
+          이번 추석 목적있는 다이빙의 장소는 <strong>포항</strong>입니다.
+          동해의 푸른 바다와 다양한 암반 지형을 배경으로,
+          펀다이빙의 즐거움과 해양정화 활동을 함께 경험합니다.
+        </p>
+        <div class="location-points">
+          <div><strong>동해안</strong><span>맑고 시원한 바다</span></div>
+          <div><strong>포항</strong><span>이번 프로그램 진행 지역</span></div>
+          <div><strong>목적있는 다이빙</strong><span>즐거움 + 해양정화</span></div>
+        </div>
+      </div>
+
+      <div class="location-map reveal">
+        <img src="images/korea-pohang-map.jpg" alt="대한민국 지도에서 포항 위치를 표시한 이미지">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" id="collab">
     <div class="container">
       <div class="section-heading center reveal">
         <span class="eyebrow light">PADI COLLABORATION</span>
@@ -278,34 +304,36 @@
           </div>
         </article>
       </div>
+
+      <div class="account-only reveal">
+        <div class="account-only-head">
+          <span class="eyebrow">PAYMENT ACCOUNT</span>
+          <h3>참가비 입금 계좌</h3>
+          <p>위 참가비 확인 후 아래 계좌로 입금해 주세요.</p>
+        </div>
+
+        <div class="account-only-details">
+          <div>
+            <span>은행</span>
+            <strong>카카오뱅크</strong>
+          </div>
+          <div>
+            <span>계좌번호</span>
+            <strong class="account-number">3333-08-0806797</strong>
+          </div>
+          <div>
+            <span>예금주</span>
+            <strong>다이빙솔루션 강성모</strong>
+          </div>
+          <button type="button" class="button button-primary account-copy-btn" onclick="copyAccountNumber(this)">
+            계좌번호 복사
+          </button>
+        </div>
+      </div>
     </div>
   </section>
 
-  
-<section class="section section-soft" id="account">
-<div class="container">
-<div class="section-heading reveal">
-<span class="eyebrow">PAYMENT</span>
-<h2 class="section-title">참가비 및 입금계좌</h2>
-</div>
-<div class="price-layout">
-<article class="price-main reveal">
-<div><span>PRICE</span><strong>150,000<small>원</small></strong>
-<p>1일 2회 다이빙<br>해양정화 프로그램</p></div>
-<div class="price-main-bottom">픽업·드랍 왕복 10,000원<br>숙박·식사 별도<br>교육 별도 문의</div>
-</article>
-<article class="detail-card reveal">
-<h3>입금 계좌</h3>
-<div class="detail-list">
-<div class="detail-row"><span>은행</span><strong>카카오뱅크</strong></div>
-<div class="detail-row"><span>계좌번호</span><strong id="acc">3333-08-0806797</strong></div>
-<div class="detail-row"><span>예금주</span><strong>다이빙솔루션 강성모</strong></div>
-</div>
-<button class="button button-primary" onclick="navigator.clipboard.writeText('3333-08-0806797').then(()=>this.innerText='복사 완료')">계좌번호 복사</button>
-</article>
-</div></div></section>
-
-<section class="section">
+  <section class="section">
     <div class="container">
       <div class="section-heading center reveal">
         <span class="eyebrow">INCLUDED / NOT INCLUDED</span>
