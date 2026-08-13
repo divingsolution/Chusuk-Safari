@@ -252,3 +252,18 @@ footer{padding:34px 20px;color:#78909b;background:#fff;text-align:center;font-si
   .hero-media{animation:none;transform:none}
   .reveal,.reveal.show{opacity:1;transform:none;transition:none}
 }
+
+/* 하단 CTA 제목 간격 보정 */
+.final-title .final-subtitle{
+  display:block;
+  margin-top:34px;
+  padding-top:4px;
+  line-height:1.18;
+  letter-spacing:-.045em;
+}
+@media(max-width:780px){
+  .final-title .final-subtitle{
+    margin-top:26px;
+    line-height:1.22;
+  }
+}
