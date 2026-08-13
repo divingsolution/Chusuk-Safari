@@ -1,0 +1,1 @@
+images 폴더에 1.jpg~5.jpg를 넣은 후 index.html 실행
