@@ -1,69 +1,421 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>추석맞이 목적있는 다이빙 | 해양정화편</title>
-<style>
-body{margin:0;font-family:Arial,sans-serif;background:#f5fbfc;color:#16323f}
-.hero{height:90vh;background:url('images/1.jpg') center/cover;display:flex;align-items:center;justify-content:center;color:#fff;text-align:center}
-.hero h1{font-size:64px;margin:0;text-shadow:0 2px 20px rgba(0,0,0,.5)}
-section{max-width:1100px;margin:auto;padding:70px 20px}
-.card{background:#fff;border-radius:20px;padding:30px;box-shadow:0 10px 30px rgba(0,0,0,.08);margin:20px 0}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
-img{width:100%;border-radius:18px}
-.btn{display:inline-block;background:#0b84c8;color:#fff;padding:14px 28px;border-radius:999px;text-decoration:none}
-footer{text-align:center;padding:40px;color:#777}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07384b" />
+  <meta name="description" content="추석맞이 목적있는 다이빙 해양정화편. PADI DAD + DSMB 콜라보로 즐기는 목적있는 다이빙." />
+  <title>추석맞이 목적있는 다이빙 | 해양정화편 | 다이빙솔루션</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="hero">
-<div>
-<h1>추석맞이 목적있는 다이빙</h1>
-<h2>해양정화편</h2>
-<p>PADI DAD + DSMB Collaboration</p>
-<a class="btn" href="#">카카오톡 문의</a>
-</div>
-</div>
 
-<section>
-<div class="card">
-<h2>프로그램 소개</h2>
-<p>즐기는 다이빙을 넘어 바다를 위한 의미있는 다이빙.</p>
-</div>
+<header class="site-header">
+  <div class="container">
+    <nav class="nav-wrap">
+      <a href="#top" class="brand">
+        DIVING SOLUTION
+        <small>PURPOSEFUL DIVING</small>
+      </a>
 
-<div class="grid">
-<div class="card">
-<h3>참가비</h3>
-<p><b>150,000원</b><br>1일 2회 다이빙</p>
-</div>
-<div class="card">
-<h3>추가비용</h3>
-<p>픽업·드랍 왕복 10,000원<br>숙박·식사 별도</p>
-</div>
-<div class="card">
-<h3>교육</h3>
-<p>DAD / DSMB 스페셜티 과정 별도 문의</p>
-</div>
-</div>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">소개</a>
+        <a href="#collab">DAD + DSMB</a>
+        <a href="#schedule">일정</a>
+        <a href="#price">참가비</a>
+        <a href="#notice">안내사항</a>
+        <a href="https://pf.kakao.com/_sxaxmfK/chat" target="_blank" rel="noopener" class="nav-cta">참가문의</a>
+      </div>
 
-<div class="card">
-<h2>포함사항</h2>
-<ul>
-<li>1일 2회 다이빙</li>
-<li>목적있는 다이빙 프로그램</li>
-<li>PADI DAD + DSMB 콜라보 진행</li>
-</ul>
-</div>
+      <button class="menu-button" type="button" aria-label="메뉴 열기" onclick="toggleMenu()">☰</button>
+    </nav>
+  </div>
+</header>
 
-<div class="grid">
-<img src="images/2.jpg">
-<img src="images/3.jpg">
-<img src="images/4.jpg">
-<img src="images/5.jpg">
-</div>
-</section>
+<main>
 
-<footer>images 폴더에 1.jpg ~ 5.jpg를 넣어 사용하세요.</footer>
+  <section class="hero" id="top">
+    <div class="hero-media"></div>
+
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-layout">
+          <div>
+            <div class="hero-kicker">CHUSEOK SPECIAL · PURPOSEFUL DIVING</div>
+
+            <h1 class="hero-title">
+              목적있는 다이빙
+              <span>해양정화편</span>
+            </h1>
+
+            <p class="hero-copy">
+              그냥 즐기고 끝나는 다이빙이 아닙니다.<br>
+              이번 추석에는 바다를 즐기고, 배우고, 조금 더 깨끗하게 만드는 하루를 함께합니다.
+              <strong>PADI DAD + DSMB</strong> 콜라보로 진행하는 다이빙솔루션의 목적있는 다이빙입니다.
+            </p>
+
+            <div class="button-row hero-actions">
+              <a href="#collab" class="button button-primary">프로그램 보기</a>
+              <a href="https://pf.kakao.com/_sxaxmfK/chat" target="_blank" rel="noopener" class="button button-outline">카카오톡 문의</a>
+            </div>
+          </div>
+
+          <aside class="hero-badge glass">
+            <span>PROGRAM</span>
+            <strong>PADI DAD<br>+ DSMB</strong>
+            <p>해양정화 × 스킬업</p>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="summary-bar">
+    <div class="container">
+      <div class="summary-grid reveal">
+        <div class="summary-item">
+          <span>TYPE</span>
+          <strong>목적있는 다이빙</strong>
+        </div>
+        <div class="summary-item">
+          <span>DIVING</span>
+          <strong>1일 2회</strong>
+        </div>
+        <div class="summary-item">
+          <span>PRICE</span>
+          <strong>150,000원</strong>
+        </div>
+        <div class="summary-item">
+          <span>THEME</span>
+          <strong>해양정화</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="intro-grid">
+        <div class="intro-image reveal">
+          <div class="intro-badge glass">
+            <strong>Dive with Purpose</strong>
+            <p>즐기면서 배우고, 바다에 작은 변화를 만드는 다이빙</p>
+          </div>
+        </div>
+
+        <div class="intro-copy reveal">
+          <span class="eyebrow">ABOUT THE PROGRAM</span>
+
+          <h2>
+            이번 다이빙에는<br>
+            <span>목적이 있습니다.</span>
+          </h2>
+
+          <p>
+            펀다이빙의 즐거움은 그대로 유지하면서 해양 쓰레기를 발견하고 안전하게 회수하는 경험,
+            그리고 DSMB 운용을 함께 익히는 프로그램입니다.
+          </p>
+
+          <p>
+            단순히 바닷속을 둘러보고 돌아오는 다이빙이 아니라,
+            우리가 좋아하는 바다를 조금 더 건강하게 만드는 활동을 다이빙 속에 자연스럽게 담았습니다.
+          </p>
+
+          <ul class="intro-list">
+            <li>하루 기본 2회 다이빙</li>
+            <li>해양정화 활동과 펀다이빙을 함께 진행</li>
+            <li>PADI DAD + DSMB 콜라보 프로그램</li>
+            <li>DAD / DSMB 스페셜티 과정은 별도 문의</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="collab">
+    <div class="container">
+      <div class="section-heading center reveal">
+        <span class="eyebrow light">PADI COLLABORATION</span>
+        <h2 class="section-title">DAD + DSMB</h2>
+        <p class="section-description">
+          바다를 위한 실천과 안전한 수면 마커 운용을 하나의 즐거운 다이빙 경험으로 연결합니다.
+        </p>
+      </div>
+
+      <div class="collab-grid">
+        <article class="collab-card reveal">
+          <span>DIVE AGAINST DEBRIS</span>
+          <h3>PADI DAD</h3>
+          <p>
+            수중에서 발견한 해양 쓰레기를 관찰하고, 안전하게 회수하며,
+            우리가 다이빙하는 바다를 직접 돌보는 경험을 함께합니다.
+          </p>
+        </article>
+
+        <article class="collab-card reveal">
+          <span>DELAYED SURFACE MARKER BUOY</span>
+          <h3>PADI DSMB</h3>
+          <p>
+            안전한 상승과 수면 위치 표시를 위해 중요한 DSMB 운용을 경험합니다.
+            펀다이빙에서도 활용도가 높은 실전 스킬을 자연스럽게 익힐 수 있습니다.
+          </p>
+        </article>
+      </div>
+
+      <div class="collab-note reveal">
+        ※ 본 참가비에는 DAD / DSMB 스페셜티 교육비가 포함되지 않습니다.
+        스페셜티 과정 취득을 원하시는 경우 별도 문의해 주세요.
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark schedule-section" id="schedule">
+    <div class="container">
+      <div class="section-heading center reveal">
+        <span class="eyebrow light">DAY FLOW</span>
+        <h2 class="section-title">하루 진행 흐름</h2>
+        <p class="section-description">
+          당일 해양 상황과 참가자 구성에 따라 세부 순서는 변경될 수 있습니다.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-card reveal">
+          <div class="timeline-dot">01</div>
+          <small>MEETING</small>
+          <h3>집합 · 준비</h3>
+          <p>참가자 확인, 장비 준비 및 당일 프로그램을 안내합니다.</p>
+        </article>
+
+        <article class="timeline-card reveal">
+          <div class="timeline-dot">02</div>
+          <small>BRIEFING</small>
+          <h3>환경 · 안전 브리핑</h3>
+          <p>해양 쓰레기 회수 기준과 DSMB 사용에 대한 브리핑을 진행합니다.</p>
+        </article>
+
+        <article class="timeline-card reveal">
+          <div class="timeline-dot">03</div>
+          <small>DIVE 01</small>
+          <h3>1차 다이빙</h3>
+          <p>펀다이빙과 함께 해양 쓰레기를 관찰하고 가능한 범위에서 회수합니다.</p>
+        </article>
+
+        <article class="timeline-card reveal">
+          <div class="timeline-dot">04</div>
+          <small>DIVE 02</small>
+          <h3>2차 다이빙</h3>
+          <p>두 번째 다이빙에서는 DSMB 운용과 목적있는 다이빙을 이어갑니다.</p>
+        </article>
+
+        <article class="timeline-card reveal">
+          <div class="timeline-dot">05</div>
+          <small>LOG</small>
+          <h3>정리 · 로그</h3>
+          <p>장비와 회수물을 정리하고 다이빙 경험을 함께 공유합니다.</p>
+        </article>
+      </div>
+
+      <div class="schedule-note reveal">
+        해양 쓰레기는 안전하게 회수 가능한 대상만 수거하며, 무리한 회수 활동은 진행하지 않습니다.
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft" id="price">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="eyebrow">PRICE & OPTIONS</span>
+        <h2 class="section-title">참가비 안내</h2>
+        <p class="section-description">기본 참가비는 하루 2회 다이빙 기준입니다.</p>
+      </div>
+
+      <div class="price-layout">
+        <article class="price-main reveal">
+          <div>
+            <span>PRICE PER DAY</span>
+            <strong>150,000<small>원</small></strong>
+            <p>
+              1일 2회 다이빙 기준<br>
+              목적있는 다이빙 해양정화 프로그램 진행
+            </p>
+          </div>
+
+          <div class="price-main-bottom">
+            DAD / DSMB 스페셜티 과정은 별도 문의
+          </div>
+        </article>
+
+        <article class="detail-card reveal">
+          <h3>추가 비용 안내</h3>
+
+          <div class="detail-list">
+            <div class="detail-row">
+              <span>픽업 · 드랍</span>
+              <strong>왕복 10,000원</strong>
+            </div>
+            <div class="detail-row">
+              <span>숙박</span>
+              <strong>별도</strong>
+            </div>
+            <div class="detail-row">
+              <span>식사</span>
+              <strong>별도</strong>
+            </div>
+            <div class="detail-row">
+              <span>DAD 스페셜티</span>
+              <strong>별도 문의</strong>
+            </div>
+            <div class="detail-row">
+              <span>DSMB 스페셜티</span>
+              <strong>별도 문의</strong>
+            </div>
+          </div>
+
+          <div class="payment-note">
+            스페셜티 과정 취득을 원하시는 경우 참가 신청 시 미리 알려주세요.
+            필요한 교육 준비와 일정은 별도로 안내드립니다.
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading center reveal">
+        <span class="eyebrow">INCLUDED / NOT INCLUDED</span>
+        <h2 class="section-title">포함 · 불포함</h2>
+      </div>
+
+      <div class="included-grid">
+        <article class="included-card reveal">
+          <h3>포함사항</h3>
+          <div class="included-list">
+            <div class="included-row"><strong>1일 2회 다이빙</strong><span class="status-in">포함</span></div>
+            <div class="included-row"><strong>해양정화 프로그램 진행</strong><span class="status-in">포함</span></div>
+            <div class="included-row"><strong>DAD + DSMB 콜라보 체험</strong><span class="status-in">포함</span></div>
+          </div>
+        </article>
+
+        <article class="included-card reveal">
+          <h3>불포함사항</h3>
+          <div class="included-list">
+            <div class="included-row"><strong>픽업 · 드랍</strong><span class="status-out">왕복 10,000원</span></div>
+            <div class="included-row"><strong>숙박</strong><span class="status-out">별도</span></div>
+            <div class="included-row"><strong>식사</strong><span class="status-out">별도</span></div>
+            <div class="included-row"><strong>DAD / DSMB 스페셜티</strong><span class="status-out">별도 문의</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft" id="notice">
+    <div class="container">
+      <div class="section-heading center reveal">
+        <span class="eyebrow">IMPORTANT NOTICE</span>
+        <h2 class="section-title">참가 전 안내사항</h2>
+      </div>
+
+      <div class="notice-grid">
+        <article class="notice-card reveal">
+          <div class="notice-icon">🌊</div>
+          <h3>안전한 정화 활동</h3>
+          <p>
+            모든 쓰레기를 무조건 회수하지 않습니다.
+            위험물이나 얽힘 위험이 있는 물체는 안전을 고려하여 회수 여부를 판단합니다.
+          </p>
+        </article>
+
+        <article class="notice-card reveal">
+          <div class="notice-icon">🎈</div>
+          <h3>DSMB는 실전 스킬</h3>
+          <p>
+            DSMB는 다양한 다이빙 환경에서 활용도가 높은 안전 장비입니다.
+            이번 프로그램에서 목적있는 다이빙과 함께 자연스럽게 경험합니다.
+          </p>
+        </article>
+
+        <article class="notice-card reveal">
+          <div class="notice-icon">🎓</div>
+          <h3>스페셜티는 별도</h3>
+          <p>
+            DAD 또는 DSMB 스페셜티 자격 취득을 원하시는 경우 사전에 문의해 주세요.
+            교육비와 과정은 별도 안내합니다.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="eyebrow">WHY DIVING SOLUTION</span>
+        <h2 class="section-title">즐기는 것에서<br>한 걸음 더.</h2>
+        <p class="section-description">
+          다이빙솔루션은 다이빙의 재미와 안전, 그리고 바다를 위한 작은 실천을 함께 만들어갑니다.
+        </p>
+      </div>
+
+      <div class="why-grid">
+        <article class="why-card reveal">
+          <div class="why-content">
+            <span>SAFETY FIRST</span>
+            <h3>안전을 우선으로</h3>
+            <p>해양정화 활동도 안전한 다이빙 범위 안에서 진행합니다.</p>
+          </div>
+        </article>
+
+        <article class="why-card reveal">
+          <div class="why-content">
+            <span>DIVE WITH PURPOSE</span>
+            <h3>목적있는 다이빙</h3>
+            <p>즐기는 다이빙에 의미 있는 경험을 하나 더합니다.</p>
+          </div>
+        </article>
+
+        <article class="why-card reveal">
+          <div class="why-content">
+            <span>DIVE TOGETHER</span>
+            <h3>함께 만드는 변화</h3>
+            <p>한 번의 다이빙이 바다를 바꾸지는 않지만, 꾸준한 실천은 변화를 만듭니다.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="container final-content reveal">
+      <h2 class="final-title">
+        DIVE WITH PURPOSE
+        <span>추석맞이 해양정화편</span>
+      </h2>
+
+      <p>
+        PADI DAD + DSMB 콜라보<br>
+        즐기고, 배우고, 바다를 위한 다이빙
+      </p>
+
+      <div class="button-row">
+        <a href="https://pf.kakao.com/_sxaxmfK/chat" target="_blank" rel="noopener" class="button button-primary">카카오톡 문의</a>
+        <a href="tel:01098796365" class="button button-light">전화문의</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<a href="https://pf.kakao.com/_sxaxmfK/chat" target="_blank" rel="noopener" class="floating-contact">
+  카카오톡 참가문의
+</a>
+
+<footer>
+  DIVING SOLUTION · PURPOSEFUL DIVING · MARINE CLEANUP
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
